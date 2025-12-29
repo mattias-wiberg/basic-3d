@@ -10,6 +10,7 @@ const points = [
     { x: -0.25, y: -0.25, z: 0.25 },
 
     { x: 0, y: 0.25, z: 0 },
+    { x: 0, y: 0, z: 0 },
     // {x: , y: , z:0}
     // {x: , y: , z:0}
     // {x: , y: , z:0}
@@ -22,7 +23,18 @@ const points = [
 const faces = [
     [
         points[0],
-        points[1],
-        points[2]
+        points[2],
+        points[8],
+        points[6]
+    ],
+    [
+        points[0],
+        points[2],
+        points[9],
+    ],
+    [
+        points[8],
+        points[6],
+        points[9],
     ],
 ]
